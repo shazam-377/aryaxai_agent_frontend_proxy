@@ -5,7 +5,7 @@ const app = express();
 const PORT = process.env.PORT || 4000;
 
 // Enable CORS for your frontend domain (or all during development)
-app.use(cors({ origin: 'https://aryaxai-agent-react-frontend.onrender.com/' }));
+app.use(cors({ origin: 'https://aryaxai-agent-react-frontend.onrender.com' }));
 
 // Proxy API requests to your ngrok URL
 app.use(
